@@ -12,7 +12,7 @@
 - **Tailwind CSS**: CSS фреймворк для стилізації.
 - **SQLite**: Реляційна база даних для зберігання даних.
 - **Docker**: Застосунок "докерезовано" та розміщено на [Docker Hub](https://hub.docker.com/repository/docker/kykyrudza/onix-dev-exercise/general).
-- **Docker**: Застосунок завантаженно та розміщенно  на [GitHub](https://github.com/kykyrudza/frontend-backend-onix).
+- **GitHib**: Застосунок завантаженно та розміщенно  на [GitHub](https://github.com/kykyrudza/frontend-backend-onix).
 
 ## Встановлення Docker Hub
 
