@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Фиксируем позицию контейнера с флагом */
+.iti__flag-container {
+    position: absolute !important;
+    top: 50% !important;
+    left: 16px !important; /* Отступ слева */
+    transform: translateY(-50%) !important; /* Центрирование по вертикали */
+}
+
+/* Настраиваем размер флага */
+.iti__flag {
+    width: 20px !important;
+    height: 15px !important;
+}
+
+/* Устанавливаем стили для кода страны */
+.iti__dial-code {
+    color: #4B5563 !important; /* Серый текст */
+    font-size: 16px !important;
+}
+
+/* Устанавливаем стили для списка стран */
+.iti__country-list {
+    z-index: 9999 !important; /* Обеспечивает, что список будет выше других элементов */
+}
+
+/* Устанавливаем стили для названия страны */
+.iti__country-name {
+    font-size: 14px !important;
+    color: #1F2937 !important;
+}
+
