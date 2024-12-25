@@ -77,7 +77,7 @@ class ProductSeeder extends Seeder
                 ProductImage::create([
                     'product_id' => $product->id,
                     'is_main' => $imageIndex === $mainImageIndex,
-                    'image_path' => 'storage/images/products/faker/image' . $imageIndex . '.jpg',
+                    'image_path' => 'images/products/faker/image' . $imageIndex . '.jpg',
                 ]);
             }
         }
