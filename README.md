@@ -47,8 +47,8 @@ docker exec -it laravel-app php artisan migrate:refresh --seed
 ### Крок 1: Клонування репозиторію
 
 ```bash
-git clone https://github.com/kykyrudza/onix-dev-exercise.git
-cd your-repository
+git clone https://github.com/kykyrudza/frontend-backend-onix.git
+cd frontend-backend-onix
 ```
 
 ### Крок 2: Встановлення залежностей
