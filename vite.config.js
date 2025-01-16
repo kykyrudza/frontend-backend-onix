@@ -18,15 +18,4 @@ export default defineConfig({
             },
         }),
     ],
-    server: {
-        host: '0.0.0.0',  // Убедитесь, что сервер доступен на всех интерфейсах
-        hmr: {
-            host: 'localhost',
-        },
-        cors: {
-            origin: 'http://localhost:8080',  // Разрешаем запросы только с Nginx
-            methods: ['GET', 'POST', 'PUT', 'DELETE'],
-            allowedHeaders: ['Content-Type'],
-        },
-    },
 })
